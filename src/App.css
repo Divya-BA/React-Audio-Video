@@ -1,0 +1,67 @@
+.screenContainer {
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  left: 4rem;
+  top: 2rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomRightIcons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.uploadButton {
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.recordButton {
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none; 
+  background-color: transparent;
+}
+
+.audioButton {
+  font-size: 2rem;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.fileInfo {
+  display: flex;
+  align-items: center;
+}
+
+.fileInfo span {
+  margin-right: 10px;
+}
+
+.playButton {
+  cursor: pointer;
+}
+
+.videoContainer {
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.videoElement {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
